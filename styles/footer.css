@@ -1,0 +1,12 @@
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF69B4;
+    padding-bottom: 100px;
+}
+
+.footer-copyright {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
