@@ -1,0 +1,146 @@
+main {
+    background-color: #FF69B4;
+    padding-top: 30px;
+    padding-bottom: 1000px;
+}
+
+#quiz-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.question-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.question-title {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 0px;
+}
+
+.question-advice {
+    margin-top: 10px;
+    margin-bottom: 60px;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.answer-container {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: 500px 500px;
+    column-gap: 3rem;
+}
+
+.answer {
+    margin-top: 2rem;
+    background-color: black;
+    color: #fff;
+}
+
+.question-image {
+    max-width: 700px;
+    border-radius: 6px;
+}
+
+button {
+    background-color: #FF69B4;
+    color: #fff;
+    padding: 10px 20px;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 8px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+  }
+
+  button:hover {
+    background-color: #FF007F;
+  }
+
+  .green {
+    background-color: green;
+  }
+
+  .red {
+    background-color: red;
+  }
+
+  .result-container {
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 24px;
+    margin-top: 40px;
+  }
+
+  .result-message {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 20px;
+  }
+
+  .result-image {
+    width: 500px;
+    margin-top: 20px;
+    border-radius: 6px;
+  }
+
+  @media (max-width: 1100px) {
+    .question-title {
+        font-family: 'Open Sans', sans-serif;
+        text-align: center;
+        font-size: 23px;
+      }
+
+      .question-advice {
+        font-size: 16px;
+      }
+
+      .question-image {
+        max-width: 300px;
+        border-radius: 6px;
+    }
+
+    .answer-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
+    }
+
+    .answer {
+        margin-top: 2rem;
+        background-color: black;
+        color: #fff;
+        width: 300px;
+    }
+
+    .result-image {
+        width: 300px;
+        margin-top: 20px;
+        border-radius: 6px;
+      }
+  }
+ 
+  
