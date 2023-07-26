@@ -1,0 +1,107 @@
+/* Updated styles */
+
+.outter-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 3rem;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom right, #FF69B4, #FFB6C1);
+    /* The gradient starts with #FF69B4 (light pink) at the top-left corner
+       and transitions to #FFB6C1 (lighter pink) at the bottom-right corner */
+  }
+  
+  .button-container {
+    margin-bottom: 1rem; /* Added some spacing between the button container and topics container */
+  }
+  
+  .topics-container {
+    margin-top: 1rem; /* Added some spacing between the topics container and the previous content */
+  }
+  
+  .input-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .input-container label {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: black; 
+    font-family: 'Pacifico', cursive;
+    font-size: 32px;
+    text-align: center;
+  }
+  
+  .input-container input {
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    width: 100%; 
+    max-width: 300px; 
+    border: 1px solid white;
+    border-radius: 4px;
+    outline: none;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 2rem;
+    text-indent: 1rem;
+    font-size: 16px;
+  }
+  
+  .input-container button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #FF69B4; 
+    font-weight: bold; 
+    transition: background-color 0.3s ease;
+    width: 200px;
+    margin-top: 1rem;
+  }
+
+  .input-container button:hover {
+    background-color: #FF69B4; 
+    color: white; 
+  }
+  
+  .output-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .output-container h3 {
+    color: black; 
+    font-family: 'Pacifico', cursive;
+    font-size: 32px;
+  }
+  
+  .pink-container {
+    background-color: black; 
+    padding: 2rem; 
+    border-radius: 6px;
+    margin-top: 1rem; 
+  }
+  
+  .pink-container ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 2rem; 
+  }
+  
+  .pink-container li {
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 5px;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
