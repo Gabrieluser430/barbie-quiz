@@ -78,5 +78,3 @@ function displaySavedTopics() {
 }
 
 displaySavedTopics();
-
-localStorage.removeItem("topics")
